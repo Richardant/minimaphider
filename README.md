@@ -1,2 +1,2 @@
-# Example
-An example greeter plugin
+# World Map Hider
+Hides World Minimap

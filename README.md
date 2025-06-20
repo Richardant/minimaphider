@@ -1,2 +1,2 @@
-# World Map Hider
-Hides World Minimap
+# Minimap Hider
+Hides Minimap

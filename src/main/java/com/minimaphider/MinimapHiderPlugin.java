@@ -45,17 +45,17 @@ public class MinimapHiderPlugin extends Plugin
 
     private void setMapHidden(boolean hidden)
     {
-        Widget orb = client.getWidget(InterfaceID.TOPLEVEL_OSRS_STRETCH, 22);
-        if (orb != null)
+        Widget classic = client.getWidget(InterfaceID.TOPLEVEL_OSRS_STRETCH, 22);
+        if (classic != null)
         {
-            orb.setHidden(hidden);
+            classic.setHidden(hidden);
         }
         for (int i = 23; i <= 32; i++)
         {
-            Widget w = client.getWidget(InterfaceID.TOPLEVEL_PRE_EOC, i);
-            if (w != null)
+            Widget modern = client.getWidget(InterfaceID.TOPLEVEL_PRE_EOC, i);
+            if (modern != null)
             {
-                w.setHidden(hidden);
+                modern.setHidden(hidden);
             }
         }
     }

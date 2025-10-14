@@ -38,7 +38,7 @@ public class MinimapHiderPlugin extends Plugin
     @Subscribe
     public void onScriptPostFired(ScriptPostFired s)
     {
-        if (s.getScriptId() == ScriptID.TOPLEVEL_REDRAW || s.getScriptId() == 903)
+        if (s.getScriptId() == ScriptID.TOPLEVEL_REDRAW || s.getScriptId() == 903 || s.getScriptId() == 2396)
         {
             setMapHidden(true);
         }
